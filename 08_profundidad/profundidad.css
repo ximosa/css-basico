@@ -1,0 +1,20 @@
+img{
+    position: absolute;
+}
+ 
+.vara{
+  left: 321px;
+  top: 472px;
+    z-index: 1;
+}
+
+.centro{
+    top: 284px;
+    left: 260px;
+    z-index: 3;
+}
+
+.veleta{
+ z-index: 2;
+}
+

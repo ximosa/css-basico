@@ -1,0 +1,26 @@
+
+body {
+
+    font-family: 'Arial';
+
+}
+
+li {
+
+    height: 50px;
+
+    text-align: 50px;
+
+}
+.lista1 {
+    list-style-type: square;
+}
+
+.lista2 {
+    list-style-type: none;
+}
+
+.lista3 {
+    list-style-image: url('lista.png');
+    margin: 50px;
+}

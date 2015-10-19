@@ -1,0 +1,18 @@
+body {
+    background: silver;
+}
+
+
+.circulo {
+     -webkit-clip-path: circle(80px at 100px 90px);
+}
+
+.ovalo {
+    -webkit-clip-path: ellipse(85px 40px at 140px 90px);
+}
+
+.triangulo {
+    
+    -webkit-clip-path: polygon(50% 0%, 100% 100%, 0% 75%);
+    
+}

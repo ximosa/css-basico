@@ -1,0 +1,21 @@
+body {
+    font-family: 'Arial';
+}
+label {
+    display: block;
+}
+input {
+    display: block;
+    margin: 10px 0;
+    height: 30px;
+    width: 300px;
+    font-size: 20px;
+}
+ 
+input:focus:invalid{
+  background: red;
+}
+
+input:focus:valid  {
+    background: green;
+}

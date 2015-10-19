@@ -1,0 +1,46 @@
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style-type: none;
+    height: 120px;
+    line-height: 120px;
+    font-size: 30px;
+}
+span{
+    float: left;
+    height: 120px;
+    width: 120px;
+    margin: 0 15px;
+   
+}
+
+.sprites span{
+    background-image: url('imagenes/img_sprite.png');
+}
+
+.figura1{
+    background-position: -15px 0px;
+}
+
+.figura2{
+    background-position: -171px -5px;
+}
+
+
+.figura3{
+    background-position: -322px -5px;
+}
+
+
+.figura4{
+    background-position: -15px -141px;
+}
+
+.figura5{
+    background-position: -169px -141px;
+}
+.figura6{
+    background-position: -322px -141px;
+}

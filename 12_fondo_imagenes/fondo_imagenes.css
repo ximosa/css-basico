@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor1{
+    width: 150px;
+    height: 150px;
+    display:block;
+    border:solid 1px;
+    margin:20px auto ;
+    background-image:url('imagenes/imagen.png');
+    
+    background-size: contain;
+}
+
+.contenedor2{
+    width: 220px;
+    height: 300px;
+    display:block;
+    border:solid 1px;
+    margin:20px auto ;
+    background-image:url('imagenes/imagen.png');
+    
+    background-size: cover;
+    background-position: center;
+    
+    
+ 
+}
+
+.contenedor3{
+    width: 80%;
+    height: 130px;
+    display:block;
+    border:solid 1px;
+    margin:20px auto ;
+    background-image:url('imagenes/imagen.png');
+    
+    background-size: cover;
+    background-position: center 30%;
+    
+  
+}
+

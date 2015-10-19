@@ -1,0 +1,15 @@
+
+body, html, .contenedor{height:  100%}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor{
+    
+
+    width: 100%;
+    
+    background-image: url('imagenes/azul.png') , url('imagenes/blanco.png'), url('imagenes/amarillo.png'), radial-gradient(circle , #1082e2 , #0f2a9d)
+
+}

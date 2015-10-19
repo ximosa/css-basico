@@ -1,0 +1,23 @@
+
+body{
+    font-family: 'Arial';
+    background: #000;
+    color:#fff;
+}
+
+h1{
+font-size: 80px;
+background: linear-gradient(#ff0d0d, #ff0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p{
+font-size: 20px;
+ background: linear-gradient( #0afd2f , #2311fc);
+-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+

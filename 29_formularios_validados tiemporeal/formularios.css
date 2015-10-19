@@ -1,0 +1,30 @@
+body {
+    font-family: 'Arial';
+}
+label {
+    display: block;
+}
+input {
+    display: block;
+    margin: 10px 0;
+    height: 30px;
+    width: 300px;
+    font-size: 20px;
+}
+ 
+input:focus:invalid + span:after{
+    content: ' ✖︎';
+    color: red;
+    position: relative;
+    top: -40px;
+    left: 310px;
+}
+
+input:valid + span:after {
+    content: ' ✔︎';
+     color: green;
+    position: relative;
+    top: -40px;
+    left: 310px;
+}
+ 

@@ -1,0 +1,9 @@
+
+body{
+    font-family: 'Arial';
+}
+
+
+p:first-letter {
+ text-transform:uppercase;
+}

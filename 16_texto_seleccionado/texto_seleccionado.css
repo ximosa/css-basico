@@ -1,0 +1,12 @@
+
+body{
+    font-family: 'Arial'
+}
+ 
+h1::selection{
+    background: green;
+}
+
+p::selection{
+    background: yellow;
+}

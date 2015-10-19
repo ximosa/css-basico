@@ -1,0 +1,31 @@
+.contenedor {
+    margin: 100px auto;
+    display: block;
+    text-align: center
+}
+
+.reloj {
+    position: absolute;
+    left: 300px;
+    transform: rotate(45deg) scale(1.2);
+}
+
+/*
+MANECILLA
+Autor: carlos solís
+uso: muestra una manecilla que se transforma
+*/
+.manecilla {
+    position: absolute;
+    
+    left: 410px;
+    
+    top: 130px;
+    
+    transform: rotate(45deg);
+    
+    
+    
+    
+    transform-origin: center bottom;
+}

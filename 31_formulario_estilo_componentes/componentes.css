@@ -1,0 +1,35 @@
+body {
+    font-family: 'Arial'
+}
+label {
+    display: block;
+}
+input{
+    display: block;
+    margin: 10px 0;
+    height: 30px;
+    width: 300px;
+    font-size: 20px;
+}
+
+input[type=checkbox] {
+  position: absolute;
+  left: -1000em;
+}
+
+input[type=checkbox] + label:before {
+  content: "";
+  display: inline-block;
+  width  : 33px;
+  height : 32px;
+  margin : 0 .5em 0 0;
+  background: url("imagenes/smile.png") no-repeat 0 0;
+
+  vertical-align: bottom;
+  position: relative;
+  bottom: 2px;
+}
+
+input[type=checkbox]:checked + label:before {
+  background-position: 0 -32px;
+}

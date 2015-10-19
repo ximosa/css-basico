@@ -1,0 +1,117 @@
+.contenedor {
+    margin: 0px;
+    padding: 0px;
+    background: #222D3A;
+    color: #fff;
+    
+    overflow: hidden;
+
+}
+
+.principal {
+    margin: 0;
+    padding: 0;
+    background-color: #197ec7;
+    font-size: 75px;
+    line-height: 150px;
+    text-align: center;
+    
+    
+    text-shadow: rgb(20, 102, 161) 1px 1px,
+    rgb(20, 102, 161) 2px 2px,
+    rgb(20, 102, 161) 3px 3px,
+    rgb(20, 102, 161) 4px 4px,
+    rgb(20, 102, 161) 5px 5px,
+    rgb(20, 102, 161) 6px 6px,
+    rgb(20, 102, 161) 7px 7px,
+    rgb(20, 102, 161) 8px 8px,
+    rgb(20, 102, 161) 9px 9px,
+    rgb(20, 102, 161) 10px 10px,
+    rgb(20, 102, 161) 11px 11px,
+    rgb(20, 102, 161) 12px 12px,
+    rgb(20, 102, 161) 13px 13px,
+    rgb(20, 102, 161) 14px 14px,
+    rgb(20, 102, 161) 15px 15px,
+    rgb(20, 102, 161) 16px 16px,
+    rgb(20, 102, 161) 17px 17px,
+    rgb(20, 102, 161) 18px 18px,
+    rgb(20, 102, 161) 19px 19px,
+    rgb(20, 102, 161) 20px 20px,
+    rgb(20, 102, 161) 21px 21px,
+    rgb(20, 102, 161) 22px 22px,
+    rgb(20, 102, 161) 23px 23px,
+    rgb(20, 102, 161) 24px 24px,
+    rgb(20, 102, 161) 25px 25px,
+    rgb(20, 102, 161) 26px 26px,
+    rgb(20, 102, 161) 27px 27px,
+    rgb(20, 102, 161) 28px 28px,
+    rgb(20, 102, 161) 29px 29px,
+    rgb(20, 102, 161) 30px 30px,
+    rgb(20, 102, 161) 31px 31px,
+    rgb(20, 102, 161) 32px 32px,
+    rgb(20, 102, 161) 33px 33px,
+    rgb(20, 102, 161) 34px 34px,
+    rgb(20, 102, 161) 35px 35px,
+    rgb(20, 102, 161) 36px 36px,
+    rgb(20, 102, 161) 37px 37px,
+    rgb(20, 102, 161) 38px 38px,
+    rgb(20, 102, 161) 39px 39px,
+    rgb(20, 102, 161) 40px 40px,
+    rgb(20, 102, 161) 41px 41px,
+    rgb(20, 102, 161) 42px 42px,
+    rgb(20, 102, 161) 43px 43px,
+    rgb(20, 102, 161) 44px 44px,
+    rgb(20, 102, 161) 45px 45px,
+    rgb(20, 102, 161) 46px 46px,
+    rgb(20, 102, 161) 47px 47px,
+    rgb(20, 102, 161) 48px 48px,
+    rgb(20, 102, 161) 49px 49px,
+    rgb(20, 102, 161) 50px 50px,
+    rgb(20, 102, 161) 51px 51px,
+    rgb(20, 102, 161) 52px 52px,
+    rgb(20, 102, 161) 53px 53px,
+    rgb(20, 102, 161) 54px 54px,
+    rgb(20, 102, 161) 55px 55px,
+    rgb(20, 102, 161) 56px 56px,
+    rgb(20, 102, 161) 57px 57px,
+    rgb(20, 102, 161) 58px 58px,
+    rgb(20, 102, 161) 59px 59px,
+    rgb(20, 102, 161) 60px 60px,
+    rgb(20, 102, 161) 61px 61px,
+    rgb(20, 102, 161) 62px 62px,
+    rgb(20, 102, 161) 63px 63px,
+    rgb(20, 102, 161) 64px 64px,
+    rgb(20, 102, 161) 65px 65px,
+    rgb(20, 102, 161) 66px 66px,
+    rgb(20, 102, 161) 67px 67px,
+    rgb(20, 102, 161) 68px 68px,
+    rgb(20, 102, 161) 69px 69px,
+    rgb(20, 102, 161) 70px 70px,
+    rgb(20, 102, 161) 71px 71px,
+    rgb(20, 102, 161) 72px 72px,
+    rgb(20, 102, 161) 73px 73px,
+    rgb(20, 102, 161) 74px 74px,
+    rgb(20, 102, 161) 75px 75px,
+    rgb(20, 102, 161) 76px 76px,
+    rgb(20, 102, 161) 77px 77px,
+    rgb(20, 102, 161) 78px 78px,
+    rgb(20, 102, 161) 79px 79px,
+    rgb(20, 102, 161) 80px 80px,
+    rgb(20, 102, 161) 81px 81px,
+    rgb(20, 102, 161) 82px 82px,
+    rgb(20, 102, 161) 83px 83px,
+    rgb(20, 102, 161) 84px 84px,
+    rgb(20, 102, 161) 85px 85px,
+    rgb(20, 102, 161) 86px 86px,
+    rgb(20, 102, 161) 87px 87px,
+    rgb(20, 102, 161) 88px 88px,
+    rgb(20, 102, 161) 89px 89px,
+    rgb(20, 102, 161) 90px 90px,
+    rgb(20, 102, 161) 91px 91px,
+    rgb(20, 102, 161) 92px 92px,
+    rgb(20, 102, 161) 93px 93px,
+    rgb(20, 102, 161) 94px 94px,
+    rgb(20, 102, 161) 95px 95px,
+    rgb(20, 102, 161) 96px 96px; 
+
+}

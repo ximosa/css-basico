@@ -1,0 +1,12 @@
+img.base{
+    
+    width: 300px;
+    margin: auto;
+    display: block;
+    
+  -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, 
+      color-stop(60%, transparent), 
+      from(transparent),to(white)) ;
+
+}
+

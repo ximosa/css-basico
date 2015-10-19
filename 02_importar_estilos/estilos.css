@@ -1,0 +1,13 @@
+@import url('segundaHoja.css');
+
+body{
+    font-family: monospace;
+    padding: 30px;
+}
+
+h1{
+    color: #FF0000;
+}
+p{
+    width: 500px;
+}

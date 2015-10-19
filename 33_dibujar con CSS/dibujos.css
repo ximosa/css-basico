@@ -1,0 +1,76 @@
+body{background: silver}
+
+
+#huevo {
+    display: block;
+    width: 126px;
+    height: 180px;
+    background-color: #fff;
+    
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    
+}
+
+
+
+#pacman {
+    width: 0px;
+    height: 0px;
+    
+    
+    border: 60px solid yellow;
+    
+    border-right: 60px solid transparent;
+    
+    border-radius: 60px; 
+     
+}
+
+
+
+#estrella {
+    margin: 50px 0;
+    position: relative;
+    display: block;
+    width: 0px;
+    height: 0px;
+    
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid green;
+    border-left: 100px solid transparent;
+    
+    transform: rotate(35deg);
+    
+    
+}
+
+#estrella:before {
+
+    border-bottom: 80px solid green;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -45px;
+    left: -65px;
+    display: block;
+    content: '';
+    transform: rotate(-35deg);
+
+}
+
+#estrella:after {
+    position: absolute;
+    display: block;
+    top: 3px;
+    left: -105px;
+    width: 0px;
+    height: 0px;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid green;
+    border-left: 100px solid transparent;
+    transform: rotate(-70deg);
+    content: '';
+}
+ 

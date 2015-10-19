@@ -1,0 +1,37 @@
+body {
+    background: silver;
+}
+
+#dialogo {
+    width: 180px;
+    height: 120px;
+    font-size: 40px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.46);
+    text-align: center;
+    padding-top: 10px;
+    line-height: 40px;
+    
+    
+    position: absolute;
+    left: 230px;
+    top: 200px;
+    
+}
+
+#dialogo:before {
+    content: "";
+    
+    border-top: 13px solid transparent;
+    border-right: 26px solid #fff;
+    border-bottom: 13px solid transparent;
+    
+    position: absolute;
+    right: 100%;
+    top: 26px;
+    width: 0;
+    height: 0;
+}
+
+ 

@@ -1,0 +1,41 @@
+.contenedor {
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+}
+
+.reloj {
+    background: url('imagenes/reloj.png') no-repeat;
+    height: 240px;
+    width: 240px;
+    transform: rotate(45deg);
+}
+
+.manecilla {
+    width: 5px;
+    height: 80px;
+    top: 50px;
+    left: 125px;
+    position: absolute;
+    background: #000;
+    
+    transform-origin: center bottom;
+    
+     -webkit-animation: miAnimacion 2s infinite;
+}
+
+@-webkit-keyframes  miAnimacion {
+        
+    0%   {
+        background-color: #000;
+        transform: rotate(1deg);
+    }
+    50%   {
+        background: green
+    }
+    100%{
+        background-color: red;
+        transform: rotate(360deg);
+    }
+
+}

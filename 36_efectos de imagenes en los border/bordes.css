@@ -1,0 +1,17 @@
+#cuadro {
+    background: url('imagenes/ave2.png') no-repeat;
+    width: 300px;
+    height: 200px;
+        
+   
+  
+    
+    border: 100px solid transparent;
+    
+    border-image: url("imagenes/border2.png") 220 repeat;
+    
+    background-position: -100px -100px;
+    
+    border-radius: 20px
+
+}

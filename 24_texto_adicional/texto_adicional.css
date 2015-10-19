@@ -1,0 +1,31 @@
+
+body{
+    font-family: 'Arial';
+}
+
+.contenedor{
+    width: 700px;
+    display: block;
+    margin: auto
+}
+
+
+.codigo{
+    width: 100%;
+    background: #3c3c3c;
+    color: #fff;
+    padding: 30px;
+    font-family: monospace;
+    font-size: 12px;
+    margin: 50px 0;
+    position: relative;
+}
+
+.codigo::before{
+    content: "Ejemplo: ";
+    position: absolute;
+    top: -20px;
+    color: #000;
+    left: 0px;
+}
+
